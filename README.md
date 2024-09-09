@@ -1,7 +1,7 @@
 # TODO LIST
 
-- [ ] Make it deploy
-- [ ] Scaffold basic UI with mock data
+- [x] Make it deploy
+- [x] Scaffold basic UI with mock data
 - [ ] Fetch data from API
 - [ ] Set up a database (postgres)
 - [ ] Set up authentication
