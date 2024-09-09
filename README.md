@@ -1,3 +1,17 @@
+# TODO LIST
+
+- [ ] Make it deploy
+- [ ] Scaffold basic UI with mock data
+- [ ] Fetch data from API
+- [ ] Set up a database (postgres)
+- [ ] Set up authentication
+- [ ] Add image upload
+- [ ] Error management (Sentry)
+- [ ] Routing/image page (parallel route)
+- [ ] Delete button
+- [ ] Analytics (posthog)
+- [ ] Rate limiting (upstash)
+
 # Create T3 App
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
