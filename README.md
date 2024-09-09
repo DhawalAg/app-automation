@@ -2,8 +2,7 @@
 
 - [x] Make it deploy
 - [x] Scaffold basic UI with mock data
-- [ ] Fetch data from API
-- [ ] Set up a database (postgres)
+- [x] Set up a database (postgres)
 - [ ] Set up authentication
 - [ ] Add image upload
 - [ ] Error management (Sentry)
