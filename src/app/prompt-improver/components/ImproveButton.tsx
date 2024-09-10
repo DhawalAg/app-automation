@@ -13,7 +13,7 @@ const ImproveButton: React.FC<ImproveButtonProps> = ({ onClick, isLoading, disab
     <Button 
       onClick={onClick}
       disabled={disabled}
-      className="w-full bg-black hover:bg-gray-800 text-white font-medium py-2 px-4 rounded-lg transition duration-150 ease-in-out"
+      className="w-full bg-black hover:bg-gray-800 text-white font-medium py-2 px-4 rounded-lg transition duration-150 ease-in-out flex items-center justify-center"
     >
       {isLoading ? 'Improving...' : 'Improve Prompt'}
       {!isLoading && <ArrowRightIcon className="ml-2 h-4 w-4" />}
