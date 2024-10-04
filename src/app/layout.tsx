@@ -6,10 +6,9 @@ import { type Metadata } from "next";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: "Prompt Improver",
-  description: 'Improve your prompts with AI assistance',
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
-};
+  title: 'Job Application Automation',
+  description: 'Automate your job application process',
+}
 
 export default function RootLayout({
   children,
