@@ -1,4 +1,10 @@
-# TODO LIST
+# App Automation
+
+## Description
+
+This is a simple app that enables the easy tracking of my applications in Notion. For each application, it also automates the process of creating a cover letter, cold email, and follow up email for a job application.
+
+## TODO LIST
 
 - [x] Make it deploy
 - [x] Scaffold basic UI with mock data
