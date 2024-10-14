@@ -1,6 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from jobDetails import JobDetails
 from notion_entry import create_application_entry, create_company_entry
+from file_entry import create_folders_and_file
 from fastapi.middleware.cors import CORSMiddleware
 
 origins = [
@@ -25,6 +26,13 @@ async def create_app_entry(job_details: JobDetails):
         company_page_id = create_company_entry(
             job_details.company_name,
             job_details.company_job_board_link
+        )
+
+        # create required folders and files
+        create_folders_and_file(
+            role_name=job_details.role_name,
+            company_name=job_details.company_name,
+            job_description=job_details.job_description
         )
 
         # Create application entry
